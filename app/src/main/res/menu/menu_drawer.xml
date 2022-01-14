@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/memoFragment"
+            android:icon="@drawable/ic_baseline_checklist_24"
+            android:title="提醒事項" />
+
+        <item
+            android:id="@+id/noteFragment"
+            android:icon="@drawable/ic_baseline_note_alt_24"
+            android:title="記事本" />
+
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="地圖" />
+
+        <item
+            android:id="@+id/canvasFragment"
+            android:icon="@drawable/ic_baseline_format_paint_24"
+            android:title="畫布" />
+        <item
+            android:id="@+id/loginFragment"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="登入" />
+    </group>
+</menu>

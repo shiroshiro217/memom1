@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "137360477785",
+    "project_id": "memom-7e90d",
+    "storage_bucket": "memom-7e90d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137360477785:android:28c5935763dc7f66306b48",
+        "android_client_info": {
+          "package_name": "com.example.memom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137360477785-jrjf2qm7ac6r5l176h5gvjouh2egfvv7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "137360477785-vps4k1ddje1moqa0864sdgck8oq2guv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzqqpQwfcEOTHftb6gqO9n-fa3TMoI_gM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137360477785-vps4k1ddje1moqa0864sdgck8oq2guv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawer"
+    app:startDestination="@id/memoFragment">
+
+    <fragment
+        android:id="@+id/memoFragment"
+        android:name="com.example.memom.Fragment.MemoFragment"
+        android:label="fragment_memo"
+        tools:layout="@layout/fragment_memo" />
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="com.example.memom.Fragment.NoteFragment"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.memom.Fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.memom.Fragment.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/canvasFragment"
+        android:name="com.example.memom.Fragment.CanvasFragment"
+        android:label="fragment_canvas"
+        tools:layout="@layout/fragment_canvas" />
+</navigation>
